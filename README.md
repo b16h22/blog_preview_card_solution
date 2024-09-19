@@ -56,10 +56,10 @@ Centering a <div> element horizontally and vertically without providing hard val
 Adding active state for Title text element on hover.
 
 ```css
-    .title:hover {
-      color:hsl(47, 88%, 63%);
-      cursor: pointer;
-    }
+  .title:hover {
+    color:hsl(47, 88%, 63%);
+    cursor: pointer;
+  }
 ```
 
 ### Useful resources
