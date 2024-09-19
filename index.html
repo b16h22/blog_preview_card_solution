@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <style>
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: hsl(47, 88%, 63%);
+      height: 100vh;
+    }
+
+    @font-face {
+      font-family: figtree;
+      src: url(./assets/fonts/Figtree-VariableFont_wght.ttf);
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 16px;
+      border: 1px solid black;
+      padding: 20px;
+      box-shadow: 8px 8px 0 0 black;
+      font-family: figtree;
+    }
+
+    .headerimage {
+      border-radius: 8px;
+      width: 320px;
+    }
+
+    .text {
+      margin-top: 20px;
+      width: 320px;
+    }
+
+    .author {
+      display: inline-block;
+      width: 320px;
+    }
+
+    .yellowbutton {
+      background-color: hsl(47, 88%, 63%);
+      border-radius: 4px;
+      border: none;
+      padding: 8px 12px;
+      font-family: figtree;
+      font-weight: 800;
+      font-size: 16px;
+      color: hsl(0, 0%, 7%);
+    }
+
+    p {
+      font-weight: 500;
+      font-size: 16px;
+    }
+
+    h2 {
+      color: hsl(0, 0%, 7%);
+      font-weight: 800;
+    }
+
+    .description {
+      color: hsl(0, 0%, 42%);  
+    }
+
+    .name {
+      color: hsl(0, 0%, 7%);
+      font-weight: 800;
+      padding-left: 8px;
+    }
+
+    .dp {
+      vertical-align: middle;
+      display: inline-block;
+    }
+
+    .title:hover {
+      color:hsl(47, 88%, 63%);
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <img class="headerimage" src="./assets/images/illustration-article.svg" alt="Illustration Article" />
+    <div class="text">
+      <button class="yellowbutton">Learning</button>
+      <p>Published 21 Dec 2023</p>
+      <h2 class="title">HTML & CSS foundations</h2>
+      <p class="description">These languages are the backbone of every website, defining structure, content and presentation.</p>
+    </div>
+    <div class="author">
+      <img class="dp" style="height:32px; width:32px;" src="./assets/images/image-avatar.webp" alt="Profile Picture"/>
+      <span class="name">Greg Hooper</span>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
